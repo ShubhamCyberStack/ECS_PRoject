@@ -1,0 +1,13 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f4; margin: 0; }
+header { background: #333; color: #fff; padding: 20px; text-align: center; }
+.container { padding: 20px; }
+.car-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+.car-card { background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; transition: 0.3s; }
+.car-card:hover { transform: scale(1.02); }
+.car-card img { width: 100%; border-radius: 8px; height: 180px; object-fit: cover; }
+.btn { display: inline-block; background: #e74c3c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 10px; }
+.details-container { display: flex; justify-content: center; padding: 50px; }
+.details-card { display: flex; background: white; border-radius: 15px; max-width: 900px; box-shadow: 0 10px 20px rgba(0,0,0,0.2); overflow: hidden; }
+.hero-img { width: 50%; object-fit: cover; }
+.info { padding: 40px; width: 50%; }
+.btn-back { display: inline-block; margin-top: 20px; color: #3498db; text-decoration: none; font-weight: bold; }

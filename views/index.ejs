@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Guide - Showroom</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1>World Class Car Guide</h1>
+    </header>
+    <div class="container">
+        <div class="car-grid">
+            <% cars.forEach(car => { %>
+                <div class="car-card">
+                    <img src="<%= car.img %>" alt="<%= car.name %>">
+                    <h3><%= car.name %></h3>
+                    <p>Model: <%= car.model %></p>
+                    <a href="/car/<%= car.id %>" class="btn">Show More</a>
+                </div>
+            <% }); %>
+        </div>
+    </div>
+</body>
+</html>
