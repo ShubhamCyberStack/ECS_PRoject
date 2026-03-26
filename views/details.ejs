@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= car.name %> <%= car.model %> - Details</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <h1><%= car.name %> Details</h1>
+    </header>
+    <div class="details-container">
+        <div class="details-card">
+            <img src="<%= car.carImg %>" class="hero-img">
+            <div class="info">
+                <h2><%= car.name %> <%= car.model %></h2>
+                <hr>
+                <p><strong>Version:</strong> <%= car.version %></p>
+                <p><strong>Available Colors:</strong> <%= car.colors.join(', ') %></p>
+                <p><strong>Specifications:</strong> <%= car.specs %></p>
+                <p><strong>Top Speed:</strong> <%= car.topSpeed %></p>
+                <p><strong>Tires:</strong> <%= car.tires %></p>
+                <p><strong>Body Style:</strong> <%= car.body %></p>
+                <p><strong>Price:</strong> <%= car.price %></p>
+                <p><strong>Units Sold:</strong> <%= car.unitsSold %></p>
+                <p><strong>Safety Rating:</strong> <%= car.safetyRating %></p>
+                <a href="/" class="btn-back">Back to Showroom</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
