@@ -47,7 +47,7 @@ We use an Ubuntu VM as our "Build Server" to prepare our image.
 3. **Install Docker:** Initialize the container engine and add the user to the docker group to run commands without sudo .
 
 4. **Install AWS CLI:** Configure the command line interface to interact with your AWS account .  
-   ![][image1]
+   
 
 ### ---
 
