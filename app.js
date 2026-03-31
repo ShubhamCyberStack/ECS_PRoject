@@ -48,7 +48,7 @@ app.get('/car/:id', (req, res) => {
     }
 });
 
-app.listen(port, '0.0.0.0', () => {
-    console.log(`Car Showroom app running at http://0.0.0.0:${port}`);
+app.listen(port, () => {
+    console.log(`Car Showroom app running at http://localhost:${port}`);
 });
 
